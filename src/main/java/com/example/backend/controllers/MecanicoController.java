@@ -33,8 +33,5 @@ public class MecanicoController {
     return this.mecanicoService.guardarMecanico(mecanico);
     }
 
-    /*@GetMapping()
-    public ArrayList<MecanicosModel> obtenerMecanicosDisponibles(){
-        return mecanicoService.obtenerMecanicosDisponibles();
-    }*/
+
 }
